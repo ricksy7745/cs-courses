@@ -34,7 +34,7 @@ function App() {
       <div className="App-holder">
         <header className="App-header">
           <h2>
-            Software Engineering Class Path 
+            BYU Software Engineering Courses 
           </h2>
         </header>
 
