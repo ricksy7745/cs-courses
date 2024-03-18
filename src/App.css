@@ -74,7 +74,7 @@ p {
   padding: 20px; /* Adjust padding as needed */
   width: 30%; /* Set width for two quotes per row */
   border-radius: 8px; /* Rounded corners */
-  border: solid #adacb5;
+  border: solid 3px #adacb5;
   background-color: #eae8ff;
 }
 
