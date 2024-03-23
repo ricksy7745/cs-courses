@@ -34,7 +34,7 @@ function App() {
       <div className="App-holder">
         <header className="App-header">
           <h2>
-            BYU Software Engineering Courses 
+            <a className="header-text" href="/">BYU Software Engineering Courses</a>
           </h2>
         </header>
 
@@ -70,10 +70,14 @@ function App() {
         <div className="class-container"> {/* Added container for quotes */}
           {filteredClasses.map((c) => (
             <div key={c.id} className="class"> {/* Added class name for quote */}
-              <p className="class-course">{c.course}</p> {/* Added class name for quote text */}
-              <p className="class-name">{c.name}</p> {/* Added class name for quote year */}
-              <p className='class-description'>{c.description}</p>
-              {c.link && <a className='class-link' href={c.link} target="_blank" rel="noreferrer">Click here for more information</a>}
+              <div>
+                <p className="class-course">{c.course}</p> {/* Added class name for quote text */}
+                <p className="class-name">{c.name}</p> {/* Added class name for quote year */}
+                <p className='class-description'>{c.description}</p>
+              </div>
+              <div>
+                {c.link && <a className='class-link' href={c.link} target="_blank" rel="noreferrer">Click here for more information →</a>}
+              </div>
             </div>
           ))}
         </div>

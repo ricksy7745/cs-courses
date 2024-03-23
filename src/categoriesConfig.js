@@ -1,10 +1,10 @@
 // categoriesConfig.js
 export const CATEGORIES = {
-    SOFTWARE: 'Software',
+    BASICS: 'CS Basics',
+    SOFTWARE: 'Software Engineering',
     ALGORITHMS: 'Algorithms',
-    LLS: 'Low Level Systems/Computer Security',
-    BASICS: 'Basics',
-    MISC: 'Miscellaneous Topics',
+    LLS: 'Computer Systems and Security',
+    MISC: 'Miscellaneous',
     SPECIAL: 'Special Courses'
 };
 

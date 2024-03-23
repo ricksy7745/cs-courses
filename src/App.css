@@ -10,6 +10,11 @@ h2 {
   margin: 0.5em;
 }
 
+.header-text {
+  text-decoration: none;
+  color: #f5f4f6;
+}
+
 p {
   color: #2d3142;
 }
@@ -32,7 +37,6 @@ p {
 
 .App-header {
   font-size: calc(10px + 2vmin);
-  color: #f5f4f6;
 }
 
 .App-link {
@@ -70,9 +74,16 @@ p {
 
 /* Add styles for individual quotes */
 .class {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 10px; /* Adjust margin as needed */
-  padding: 20px; /* Adjust padding as needed */
-  width: 30%; /* Set width for two quotes per row */
+  padding-left: 20px; /* Adjust padding as needed */
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  width: 29%; /* Set width for two quotes per row */
+  /* height: 270px; */
   border-radius: 8px; /* Rounded corners */
   border: solid 3px #adacb5;
   background-color: #eae8ff;
