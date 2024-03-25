@@ -51,7 +51,8 @@ p {
   background-color: #D8D5DB;
   border: 1px solid #adacb5;
   padding: 8px 16px;
-  margin-right: 8px;
+  margin-right: 4px;
+  margin-left: 4px;
   cursor: pointer;
 }
 
@@ -59,7 +60,8 @@ p {
   background-color: #B0D7FF;
   border: 1px solid #adacb5;
   padding: 8px 16px;
-  margin-right: 8px;
+  margin-right: 4px;
+  margin-left: 4px;
   cursor: pointer;
 }
 
@@ -83,7 +85,7 @@ p {
   padding-top: 0px;
   padding-bottom: 15px;
   width: 29%; /* Set width for two quotes per row */
-  /* height: 225px; */
+  height: 225px;
   border-radius: 8px; /* Rounded corners */
   border: solid 3px #adacb5;
   background-color: #eae8ff;

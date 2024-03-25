@@ -43,7 +43,7 @@ function App() {
           {Object.values(CATEGORIES).map((category) => (
             <button
               key={category}
-              className={`button${selectedCategory === category ? '-selected' : ''}`}
+              className={`button-${selectedCategory === category ? 'selected' : ''}`}
               onClick={() => handleSelectCategory(category)}
             >
               {category}
