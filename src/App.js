@@ -12,11 +12,20 @@ function App() {
   const [selectedSubcategory, setSelectedSubcategory] = useState(null);
 
   const handleSelectCategory = (category) => {
+    if (category === selectedCategory) {
+      setSelectedCategory(null);
+      setSelectedSubcategory(null);
+      return;
+    }
     setSelectedCategory(category);
     setSelectedSubcategory(null);
   };
 
   const handleSelectSubcategory = (subcategory) => {
+    if (subcategory === selectedSubcategory) {
+      setSelectedSubcategory(null);
+      return;
+    }
     setSelectedSubcategory(subcategory);
   };
 
@@ -57,7 +66,7 @@ function App() {
             {Object.values(SUBCATEGORIES[selectedCategory]).map((subcategory) => (
               <button
                 key={subcategory}
-                className={`button${selectedSubcategory === subcategory ? '-selected' : ''}`}
+                className={`button-${selectedSubcategory === subcategory ? 'selected' : ''}`}
                 onClick={() => handleSelectSubcategory(subcategory)}
               >
                 {subcategory}
