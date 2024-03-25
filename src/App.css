@@ -44,7 +44,7 @@ p {
 }
 
 .horizontal-buttons {
-  padding: 12px;
+  padding: 8px;
 }
 
 .button- {
@@ -53,6 +53,7 @@ p {
   padding: 8px 16px;
   margin-right: 4px;
   margin-left: 4px;
+  margin-bottom: 8px;
   cursor: pointer;
 }
 
@@ -62,6 +63,7 @@ p {
   padding: 8px 16px;
   margin-right: 4px;
   margin-left: 4px;
+  margin-bottom: 4px;
   cursor: pointer;
 }
 
@@ -79,13 +81,12 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 10px; /* Adjust margin as needed */
+  margin: 15px; /* Adjust margin as needed */
   padding-left: 20px; /* Adjust padding as needed */
   padding-right: 20px;
   padding-top: 0px;
   padding-bottom: 15px;
   width: 29%; /* Set width for two quotes per row */
-  height: 225px;
   border-radius: 8px; /* Rounded corners */
   border: solid 3px #adacb5;
   background-color: #eae8ff;
